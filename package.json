@@ -13,9 +13,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon server/server",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd client && rm -rf node_modules && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "lau carelli",
   "license": "ISC"

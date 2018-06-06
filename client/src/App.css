@@ -33,7 +33,7 @@
 }
 /*Home*/
 .fondo-home{
-  background-image: url('./assets/images/weather9.jpeg');
+  background-image: url('./assets/images/weather12.jpeg');
   background-size: cover;
 }
 
@@ -46,7 +46,7 @@
 
 .username{
   font-size: 1rem;
-  color: #f50057;
+  color: #ef5350;
   text-align: right;
   padding: 0.5rem;
 
@@ -59,7 +59,7 @@
 
 .board-button{
   padding: 0.7rem 1rem;
-  background-color: #f50057;
+  background-color: #ef5350;
   color: #fff;
   font-size: 1rem;
   border: none;
@@ -69,16 +69,16 @@
 
 .user-button-container{
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .user-button{
-  padding: 0.7rem 1rem;
-  background-color: #f50057;
+  padding: 2rem 1rem;
+  background-color: #ef5350;
   color: #fff;
   font-size: 1rem;
   border: none;
-  border-radius: 3px;
+  border-radius: 30px;
   width: 60%;
 
 }
@@ -97,13 +97,16 @@
   padding: 0 !important
 }
 
+.MuiIconButton-colorSecondary-112{
+  color: #fff !important;
+}
 .weather-temperature{
  text-align: center;
- color: #fff;
+ color: #ef5350;
 }
 .weather-extrainfo{
   margin:auto 0 !important;
-  color: #fff;
+  color: #ef5350;
 }
 
 .style-temperature{
@@ -123,7 +126,7 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  color: #f50057;
+  color: #ef5350;
   margin-bottom: 2rem;
 }
 .button-delete{
@@ -139,6 +142,10 @@ button.MuiButtonBase-root-137.MuiIconButton-root-131.WeatherLocation-button-129{
 }
 .MuiGrid-item-2.MuiGrid-grid-xs-4-31.date-weather {
   margin: auto 0;
+}
+
+.MuiIconButton-label-266{
+  color: #fff !important;
 }
 .forecast-container{
 

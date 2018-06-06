@@ -35,11 +35,19 @@ class WeatherLocationHome extends React.Component{
   constructor(props){
     super(props);
     this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      isFav:false
+    }
   }
   handleClick(city){
     this.props.setFavorite(this.props.usuario.nombre,city);
     console.log(this.props.usuario.nombre,city);
-    
+    this.setState({
+      isFav:true,
+      color: '#ef5350'
+
+    })
+
   }
 
   render() {

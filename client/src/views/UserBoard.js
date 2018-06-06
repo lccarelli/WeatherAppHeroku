@@ -23,6 +23,10 @@ class Boards extends React.Component {
     console.log(this.props.getCityFavoriteUser);
   }
 
+  componentDidMount(){
+
+  }
+
   render() {
     const nombre = this.props.match.params.nombre;
     let cities;
@@ -41,6 +45,7 @@ class Boards extends React.Component {
           <Grid container>
             <Grid item xs={12} sm={6}>
               <LocationListContainer cities={cities}/>
+
             </Grid>
             <Grid item xs={12} sm={6}>
               <ForecastExtendedContainer/>

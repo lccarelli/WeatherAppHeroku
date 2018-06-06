@@ -1,7 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
-import axios from 'axios';
 import { withStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -14,7 +13,7 @@ import {setFavorite} from '../../actions';
 
 import Location from './../Location/Location';
 import WeatherData from '../WeatherData';
-import FavButton from '../FavButton/FavButton';
+
 
 const styles = theme => ({
   root: {

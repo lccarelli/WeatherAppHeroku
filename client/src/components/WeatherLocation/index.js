@@ -8,7 +8,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Location from './../Location/Location';
 import WeatherData from '../WeatherData';
 import DeleteIcon from '@material-ui/icons/Delete';
-import Icon from '@material-ui/core/Icon';
 import IconButton from '@material-ui/core/IconButton';
 import { deleteFavorite } from "../../actions"
 

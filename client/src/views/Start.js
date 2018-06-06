@@ -1,16 +1,8 @@
 import React from 'react';
-import axios from 'axios';
 import { connect } from "react-redux";
 import { getUser } from "../actions"
 import { Redirect } from "react-router";
-import PropTypes from 'prop-types';
-import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import FormControl from '@material-ui/core/FormControl';
-import TextField from '@material-ui/core/TextField';
-import Grid from '@material-ui/core/Grid';
-import AccountCircle from '@material-ui/icons/AccountCircle';
+
 
 class Start extends React.Component {
   constructor(){

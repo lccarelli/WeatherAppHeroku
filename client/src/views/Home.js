@@ -1,9 +1,6 @@
 import React from 'react';
 import { connect } from "react-redux"
-import PropTypes from 'prop-types';
 import {Redirect} from 'react-router';
-import { withStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
 import LocationListHomeContainer from '../containers/LocationListHomeContainer';
 
 
